@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :focus {outline:none;}
 ::-moz-focus-inner {border:0;}
@@ -127,6 +127,25 @@ button:hover {
 .agreement span {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
+}
+
+.error {
+    font-size: 12px;
+    font-style: italic;
+    color: hsl(0, 100%, 74%) ;
+    text-align: right;
+    width: 90%;
+    position: relative;
+    bottom: 15px;
+    display: none;
+}
+
+.error-icon {
+    text-align: center;
+    position: relative;
+    bottom: -8px;
+    right: -36px;
+    display: none;
 }
 
 
