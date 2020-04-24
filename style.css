@@ -80,6 +80,7 @@ button,
     border-radius: 5px;
     text-align: left;
     padding: 0;
+    position: relative;
 
 }
 
@@ -129,6 +130,8 @@ button:hover {
     font-weight: 700;
 }
 
+
+
 .error {
     font-size: 12px;
     font-style: italic;
@@ -137,17 +140,19 @@ button:hover {
     width: 90%;
     position: relative;
     bottom: 15px;
-    display: none;
 }
 
 .error-icon {
     text-align: center;
-    position: relative;
-    bottom: -8px;
-    right: -36px;
-    display: none;
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
 }
 
+
+.inactive {
+    display: none;
+}
 
 @media (min-width: 768px) {
  

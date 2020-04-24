@@ -27,16 +27,16 @@
       </div>
 
       <div class="form">
-        <form action="#" method="post">
+        <form action="#" method="post" autocomplete="off">
           <div class="container">
-            <div class="border-line"><input type="text" name="first-name" placeholder="First Name"><img class="name-error error-icon"  src="./images/icon-error.svg" alt="error"></div>
-            <p class="name-error error">First Name cannot be empty</p>
-            <div class="border-line"><input type="text" name="last-name" placeholder="Last Name"><img class="last-name-error error-icon" src="./images/icon-error.svg" alt="error"></div>
-            <p class="last-name-error error">Last Name cannot be empty</p>
-            <div class="border-line"><input type="text" name="email" placeholder="Email Address"><img class="email-error error-icon" src="./images/icon-error.svg" alt="error"></div>
-            <p class="email-error error">Looks like is not an email</p>
-            <div class="border-line"><input type="password" name="password" placeholder="Password"><img class="pass-error error-icon" src="./images/icon-error.svg" alt="error"></div>
-            <p class="pass-error error">Password cannot be empty</p>
+            <div class="border-line"><input type="text" name="first-name" placeholder="First Name"><img class="inactive"  src="./images/icon-error.svg" alt="error"></div>
+            <p class="error inactive">First Name cannot be empty</p>
+            <div class="border-line"><input type="text" name="last-name" placeholder="Last Name"><img class="inactive" src="./images/icon-error.svg" alt="error"></div>
+            <p class="error inactive">Last Name cannot be empty</p>
+            <div class="border-line"><input type="text" name="email" placeholder="Email Address"><img class="inactive" src="./images/icon-error.svg" alt="error"></div>
+            <p class="error inactive">Email cannot be empty</p>
+            <div class="border-line"><input type="password" name="password" placeholder="Password"><img class="inactive" src="./images/icon-error.svg" alt="error"></div>
+            <p class="error inactive">Password cannot be empty</p>
             <button type="button">CLAIM YOUR FREE TRIAL</button>
             <p class="agreement">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
           </div>
@@ -44,6 +44,7 @@
       </div>
     </div>
   </div>
+  <script src="main.js"></script>
 </body>
 
 </html>
