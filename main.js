@@ -40,6 +40,14 @@ function validEmail(email) {
 // })
 
 
+/* 
+Bugi:
+1. Po wprowadzeniu do formularza samego (poprawnego) adresu mailowego i kliknięciu przycisku
+strona odświeża się chodź nie powinna.
+
+2. Po wprowadzeniu błednego adresu email nie wyświetla się obrazek wykrzyknika.
+*/
+
 
 btn.addEventListener('click', ()=> {
     for (let i = 0; i < inputsTab.length; i++) {
